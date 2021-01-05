@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/10987edc-588e-4d6c-bd72-6e5f679e263d/console.sql" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/Power/MainFrame.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/Power/empDaoImpl.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/Power/empPanel.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/Power/power.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/SpeWindow/Dept.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/SpeWindow/FormGetImpl.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/SpeWindow/FormPanel.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/SpeWindow/db/DBUtils.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/csu/salout/SalOut.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/csu/user/Login.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/csu/user/Register.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/csu/user/mainFrame.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/csu/LogIn/LogIn.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/csu/MainWindow/SalControl.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/csu/bean/Emp.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/csu/dao/salDao.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/csu/dao/salDaoImpl.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/csu/db/DBUtils.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/csu/tablePanel/TabPanel.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/csu/tablePanel/selectPanel.java" charset="GBK" />
+  </component>
+</project>
