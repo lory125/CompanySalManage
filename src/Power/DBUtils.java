@@ -1,5 +1,7 @@
 package Power;
 
+import password.ConnectStr;
+
 import java.sql.*;
 
 public class DBUtils {
@@ -8,7 +10,7 @@ public class DBUtils {
     public static Connection getConnection() throws SQLException, ClassNotFoundException {
         Class.forName("com.mysql.jdbc.Driver");
         String url = "jdbc:mysql://localhost:3306/company?useUnicode=true&autoReconnect=true&characterEncoding=utf-8";
-        Connection conn = DriverManager.getConnection(url,"root","password");
+        Connection conn = DriverManager.getConnection(url,"root", ConnectStr.connectPassword);
         return conn;
     }
     //关闭资源

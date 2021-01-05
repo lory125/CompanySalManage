@@ -1,5 +1,7 @@
 package csu.db;
 
+import password.ConnectStr;
+
 import java.sql.*;
 
 public class DBUtils {
@@ -21,7 +23,7 @@ public class DBUtils {
             //2 、定义url
             String url = "jdbc:mysql://localhost:3306/company?useUnicode=true&autoReconnect=true&characterEncoding=UTF-8";
             String user = "root";
-            String pwd = "password";
+            String pwd = ConnectStr.connectPassword;
 
             //3、创建连接
             Connection conn = DriverManager.getConnection(url, user, pwd);
