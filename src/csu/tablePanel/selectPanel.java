@@ -72,81 +72,99 @@ public class selectPanel extends JPanel {
         basSal.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                if (basSal.isSelected())
+                if (basSal.isSelected()) {
                     addSen(",基本工资");
-                else delSen(",基本工资");
+                } else {
+                    delSen(",基本工资");
+                }
             }
         });
 
         deptno.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                if (deptno.isSelected())
+                if (deptno.isSelected()) {
                     addSen(",部门编号");
-                else delSen(",部门编号");
+                } else {
+                    delSen(",部门编号");
+                }
             }
         });
 
         heatMoney.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                if (heatMoney.isSelected())
+                if (heatMoney.isSelected()) {
                     addSen(",采暖补贴");
-                else delSen(",采暖补贴");
+                } else {
+                    delSen(",采暖补贴");
+                }
             }
         });
 
         offDays.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                if (offDays.isSelected())
+                if (offDays.isSelected()) {
                     addSen(",请假天数");
-                else delSen(",请假天数");
+                } else {
+                    delSen(",请假天数");
+                }
             }
         });
 
         offDiscount.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                if (offDiscount.isSelected())
+                if (offDiscount.isSelected()) {
                     addSen(",请假扣款");
-                else delSen(",请假扣款");
+                } else {
+                    delSen(",请假扣款");
+                }
             }
         });
 
         overDays.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                if (overDays.isSelected())
+                if (overDays.isSelected()) {
                     addSen(",加班天数");
-                else delSen(",加班天数");
+                } else {
+                    delSen(",加班天数");
+                }
             }
         });
 
         overPays.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                if (overPays.isSelected())
+                if (overPays.isSelected()) {
                     addSen(",加班工资");
-                else delSen(",加班工资");
+                } else {
+                    delSen(",加班工资");
+                }
             }
         });
 
         personalTax.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                if (personalTax.isSelected())
+                if (personalTax.isSelected()) {
                     addSen(",个人所得税");
-                else delSen(",个人所得税");
+                } else {
+                    delSen(",个人所得税");
+                }
             }
         });
 
         pensionIns.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                if (pensionIns.isSelected())
+                if (pensionIns.isSelected()) {
                     addSen(",个人支付养老保险");
-                else delSen(",个人支付养老保险");
+                } else {
+                    delSen(",个人支付养老保险");
+                }
             }
         });
 
@@ -168,7 +186,9 @@ public class selectPanel extends JPanel {
         if (sqlR.contains(str)) {
             sqlR.remove(str);
             System.out.println("删除  " + str);
-        } else System.out.println("不存在  " + str);
+        } else {
+            System.out.println("不存在  " + str);
+        }
     }
 
     public void sqlSelect() {

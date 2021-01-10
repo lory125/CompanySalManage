@@ -116,8 +116,8 @@ public class mainFrame extends JFrame {
 //        //把面板添加到主结构
 //        add(panel);
         //显示界面
-        left.setBackground(Color.GRAY);
-
+//        left.setBackground(Color.GRAY);
+        left.setBackground(new Color(197,228,251));
         this.setLayout(layout);
         this.add(welCom);
         this.add(salProManage);
