@@ -101,6 +101,9 @@ public class Login {
         panel3.add(btnLogin);
         panel3.add(btnReg);
 
+        userField.setText("4127001");
+        pwdField.setText("123456");
+
         //设置要用的参数
 
         //添加按钮的单击事件
